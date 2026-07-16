@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+}
+
+.logo {
+    width: 140px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.dropdown-toggle:focus {
+    color: white !important;
+}
+
+.dropdown-item:focus {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.dropdown-item:active {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.bi-three-dots {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.dropdown-item:focus {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.dropdown-item:active {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.watch-item img {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 18px;
+    color: #28a745;
+}
+
+.btn-submit {
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.spinner-border {
+    color: #007bff;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #757575;
+}
+
+.form-control {
+    border-color: #757575;
+    height: 45px;
+}
+
+.visa-card{
+    width: 70px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+.master-Card{
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+.unionpay-card{
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: -50px;
+}
